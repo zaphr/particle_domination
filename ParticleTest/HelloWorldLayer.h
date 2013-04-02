@@ -9,10 +9,15 @@
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
 
+typedef enum
+{
+	GridSprite
+} SpriteTags;
+
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer 
 {
-    CCSprite *_sun;
+    CCSprite *_sun;        
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

@@ -81,6 +81,7 @@
         [self showParticle];
 //        backgroundParticle
         
+//        [self showGrid];
         
         [self showMessage];
 //        [self zoomInPlayer];
@@ -89,6 +90,32 @@
 	}
 	return self;
 }
+
+- (void)showGrid{
+    CGSize size = [[CCDirector sharedDirector] winSize];
+    
+    
+    
+
+    
+//    [grid runAction:[CCTintTo actionWithDuration:2 red:255 green:0 blue:0]];
+  
+    for (int i=0; i < 8; i++) {
+   
+        CCSprite *grid = [CCSprite spriteWithFile:@"grid3.png"];
+        
+        grid.position = ccp( size.width /2 , size.height/2 );
+        [self addChild:grid z:1 tag:GridSprite];
+        grid.scale = i * 0.1;
+        grid.opacity = 70;
+        grid.opacity = 180 - (i * 20);
+        
+        
+    }
+    
+    
+}
+
 
 #pragma mark - handle touches
 -(void)registerWithTouchDispatcher
@@ -132,7 +159,7 @@
     CGSize size = [[CCDirector sharedDirector] winSize];
     self.sun = (CCSprite*)[[CCParticleSun alloc] init];
     self.sun.position = ccp( size.width /2 , size.height/2 );
-    [self addChild:self.sun];
+    [self addChild:self.sun z:2];
 
         _eye = [CCSprite spriteWithFile:@"aurium_blue_iris.png"];
     
@@ -180,7 +207,7 @@
 //    CCParticleSystemQuad *bgParticle = [CCParticleSystemQuad particleWithFile:@"backgroundParticle2.plist"];
     
     bgParticle.position = ccp(size.width /2 , size.height/2 );
-    [self addChild:bgParticle];
+    [self addChild:bgParticle z:0];
 }
 
 - (void)updateScore{

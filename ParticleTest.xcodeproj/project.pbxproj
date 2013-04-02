@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2616C13116F5DB5E00DC95E3 /* grid1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616C13016F5DB5E00DC95E3 /* grid1.png */; };
+		2616C13316F5E04400DC95E3 /* grid3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2616C13216F5E04400DC95E3 /* grid3.png */; };
 		2631BEA016EC06CC00F52BC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631BE9F16EC06CC00F52BC8 /* QuartzCore.framework */; };
 		2631BEA216EC06CC00F52BC8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631BEA116EC06CC00F52BC8 /* OpenGLES.framework */; };
 		2631BEA416EC06CC00F52BC8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2631BEA316EC06CC00F52BC8 /* OpenAL.framework */; };
@@ -157,6 +159,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2616C13016F5DB5E00DC95E3 /* grid1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid1.png; sourceTree = "<group>"; };
+		2616C13216F5E04400DC95E3 /* grid3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid3.png; sourceTree = "<group>"; };
 		2631BE9C16EC06CC00F52BC8 /* ParticleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2631BE9F16EC06CC00F52BC8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2631BEA116EC06CC00F52BC8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -527,7 +531,9 @@
 		2631BEB216EC06CC00F52BC8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2616C13216F5E04400DC95E3 /* grid3.png */,
 				265E005A16ECA1E9004F4CA7 /* big_vortex.plist */,
+				2616C13016F5DB5E00DC95E3 /* grid1.png */,
 				2631C06D16EC458700F52BC8 /* backgroundParticle3.plist */,
 				2631C06816EC413D00F52BC8 /* backgroundParticle2.plist */,
 				2631C06616EC405B00F52BC8 /* backgroundParticle.plist */,
@@ -994,6 +1000,8 @@
 				2631C06916EC413D00F52BC8 /* backgroundParticle2.plist in Resources */,
 				2631C06E16EC458700F52BC8 /* backgroundParticle3.plist in Resources */,
 				265E005B16ECA1E9004F4CA7 /* big_vortex.plist in Resources */,
+				2616C13116F5DB5E00DC95E3 /* grid1.png in Resources */,
+				2616C13316F5E04400DC95E3 /* grid3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
