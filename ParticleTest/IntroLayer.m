@@ -10,7 +10,7 @@
 // Import the interfaces
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
-
+#import "WobbleMove.h"
 
 #pragma mark - IntroLayer
 

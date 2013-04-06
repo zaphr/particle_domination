@@ -156,6 +156,7 @@
 		2631C06C16EC43B500F52BC8 /* WinLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631C06B16EC43B500F52BC8 /* WinLayer.m */; };
 		2631C06E16EC458700F52BC8 /* backgroundParticle3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2631C06D16EC458700F52BC8 /* backgroundParticle3.plist */; };
 		265E005B16ECA1E9004F4CA7 /* big_vortex.plist in Resources */ = {isa = PBXBuildFile; fileRef = 265E005A16ECA1E9004F4CA7 /* big_vortex.plist */; };
+		2695D260170FC409001D850A /* WobbleMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 2695D25F170FC409001D850A /* WobbleMove.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -455,6 +456,8 @@
 		2631C06B16EC43B500F52BC8 /* WinLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinLayer.m; sourceTree = "<group>"; };
 		2631C06D16EC458700F52BC8 /* backgroundParticle3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = backgroundParticle3.plist; sourceTree = "<group>"; };
 		265E005A16ECA1E9004F4CA7 /* big_vortex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = big_vortex.plist; sourceTree = "<group>"; };
+		2695D25E170FC409001D850A /* WobbleMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WobbleMove.h; sourceTree = "<group>"; };
+		2695D25F170FC409001D850A /* WobbleMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WobbleMove.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +520,8 @@
 				2631C04016EC06D000F52BC8 /* AppDelegate.m */,
 				2631C04216EC06D000F52BC8 /* HelloWorldLayer.h */,
 				2631C04316EC06D000F52BC8 /* HelloWorldLayer.m */,
+				2695D25E170FC409001D850A /* WobbleMove.h */,
+				2695D25F170FC409001D850A /* WobbleMove.m */,
 				2631C04516EC06D000F52BC8 /* IntroLayer.h */,
 				2631C04616EC06D000F52BC8 /* IntroLayer.m */,
 				2631BEB216EC06CC00F52BC8 /* Resources */,
@@ -1124,6 +1129,7 @@
 				2631C04416EC06D000F52BC8 /* HelloWorldLayer.m in Sources */,
 				2631C04716EC06D000F52BC8 /* IntroLayer.m in Sources */,
 				2631C06C16EC43B500F52BC8 /* WinLayer.m in Sources */,
+				2695D260170FC409001D850A /* WobbleMove.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
